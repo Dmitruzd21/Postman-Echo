@@ -18,7 +18,7 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body ("headers.content-length",equalTo("555"));
+                .body ("headers.content-length",equalTo("9"));
 
     }
 }
